@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-img">
+              <a class="navbar-brand" href="#">
+                <img src="Logo.png" alt="Seed Link" width="100" height="100" />
+              </a>
+            </div>
+          </nav>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contact Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="Home2.jpg" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              Plants will make <br />
+              your life better
+            </h1>
+            <p class="home__description">
+                Explore a diverse range of plants available at nearby
+                nurseries. Add fresness to your life.
+            </p>
+            <a href="#about" class="button button--flex">
+              Explore <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+
+          <div class="home__social">
+            <span class="home__social-follow">Follow Us</span>
+
+            <div class="home__social-links">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container grid">
+          <!-- <img src="Home3.png" alt="" class="about__img" align="right"> -->
+
+          <div class="about__data">
+            <img src="Home3.png" alt="" class="about__img" align="right" />
+            <h2 class="section__title about__title">
+              Who we really are & <br />
+              why choose us
+            </h2>
+
+            <p class="about__description">
+              We have over 4000+ unbiased reviews and our customers trust our
+              plant process and delivery service every time
+            </p>
+
+            <div class="about__details">
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We always deliver on time.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We give you guides to protect and care for your plants.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We always come over for a check-up after sale.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                100% money back guaranteed.
+              </p>
+            </div>
+
+            <a href="#" class="button--link button--flex">
+              Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="product section container1" id="products">
+        <h2 class="section__title-center prod">
+          Check out our <br />
+          products
+        </h2>
+
+        <p class="product__description">
+          Here are some selected plants from our showroom, all are in excellent
+          shape and has a long life span. Buy and enjoy best quality.
+        </p>
+
+        <div class="product__container grid">
+          <!-- <article class="product__card">
+                <div class="product__circle"></div>
+
+                <img src="Home1.jpg" alt="" class="product__img">
+
+                <h3 class="product__title">Cacti Plant</h3>
+                <span class="product__price">$19.99</span>
+
+                <button class="button--flex product__button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </article>
+
+            <article class="product__card">
+                <div class="product__circle"></div>
+
+                <img src="Home1.jpg" alt="" class="product__img">
+
+                <h3 class="product__title">Cactus Plant</h3>
+                <span class="product__price">$11.99</span>
+
+                <button class="button--flex product__button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </article>
+
+            <article class="product__card">
+                <div class="product__circle"></div>
+
+                <img src="Home1.jpg" alt="" class="product__img">
+
+                <h3 class="product__title">Aloe Vera Plant</h3>
+                <span class="product__price">$7.99</span>
+
+                <button class="button--flex product__button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </article>
+
+            <article class="product__card">
+                <div class="product__circle"></div>
+
+                <img src="Home1.jpg" alt="" class="product__img">
+
+                <h3 class="product__title">Succulent Plant</h3>
+                <span class="product__price">$5.99</span>
+
+                <button class="button--flex product__button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </article>
+
+            <article class="product__card">
+                <div class="product__circle"></div>
+
+                <img src="Home1.jpg" alt="" class="product__img">
+
+                <h3 class="product__title">Succulent Plant</h3>
+                <span class="product__price">$10.99</span>
+
+                <button class="button--flex product__button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </article>
+
+            <article class="product__card">
+                <div class="product__circle"></div>
+
+                <img src="Home1.jpg" alt="" class="product__img">
+
+                <h3 class="product__title">Green Plant</h3>
+                <span class="product__price">$8.99</span>
+
+                <button class="button--flex product__button">
+                    <i class="ri-shopping-bag-line"></i>
+                </button>
+            </article> -->
+          <div class="gallery">
+            <img src="plant1.png" alt="a house on a mountain" />
+            <img src="plant2.png" alt="sime pink flowers" />
+            <img src="plant3.png" alt="big rocks with some trees" />
+            <img
+              src="plant4.png"
+              alt="a waterfall, a lot of tree and a great view from the sky"
+            />
+            <img src="plant5.png" alt="a cool landscape" />
+            <img
+              src="plant6.png"
+              alt="inside a town between two big buildings"
+            />
+            <img
+              src="plant7.png"
+              alt="a great view of the sea above the mountain"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <!-- <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img src="Logo.png" ></i>
+          </a>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contact Us</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information">+999 888 777</li>
+
+            <div class="footer__social">
+              <a href="https://www.facebook.com/" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://twitter.com/" class="footer__social-link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">We accept all credit cards</h3>
+
+          <div class="footer__cards">
+            <img src="img/card1.png" alt="" class="footer__card" />
+            <img src="img/card2.png" alt="" class="footer__card" />
+            <img src="img/card3.png" alt="" class="footer__card" />
+            <img src="img/card4.png" alt="" class="footer__card" />
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; RAGNAROK. Made with love</p>
+    </footer> -->
+  </body>
+</html>
